@@ -1,0 +1,28 @@
+.presentation {
+  color: #cae3ae;
+  background-image: url(../img/train-img.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 995px;
+  padding: 30px;
+}
+
+.presentation h1 {
+  text-align: right;
+  font-family: "P22 Arts and Crafts";
+  font-size: 71px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.presentation p {
+  font-family: finlandica, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}

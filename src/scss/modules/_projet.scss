@@ -1,0 +1,22 @@
+.projet h2 {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 2;
+}
+
+.projet p {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  z-index: 2;
+}
+
+.projet {
+  position: relative;
+  z-index: 1;
+}
+
+.projet img {
+  width: 100%;
+}
