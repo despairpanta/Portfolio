@@ -1,5 +1,5 @@
 .sideBar {
-  width: calc(100% / 12);
+  width: calc(100% / 12 + 12px);
   // height: 1021px;
   padding: 20px 35px 10px;
   border-right: 3px solid #cae3ae;
@@ -34,10 +34,14 @@
   align-items: center;
 }
 
-.sideBar .logo {
-  // width: 80px;
-  // height: 81px;
-}
+// .sideBar .logo {
+//   // width: 80px;
+//   // height: 81px;
+// }
 
-.nav-button {
+// .nav-button {
+// }
+
+.container-fluid {
+  padding: 0 !important;
 }

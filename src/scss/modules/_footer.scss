@@ -1,0 +1,29 @@
+footer {
+  background: #171719;
+  width: 100%;
+}
+
+.text-animation {
+  color: #ef403b;
+  font-family: "P22 Arts and Crafts";
+  font-size: 497px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a {
+  color: #ef403b;
+  text-align: right;
+  font-family: finlandica, sans-serif;
+  font-size: 71px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}

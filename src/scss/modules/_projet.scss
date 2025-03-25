@@ -1,15 +1,24 @@
 .projet h2 {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  z-index: 2;
+  right: 18px;
+  top: 18px;
+  text-align: right;
+  font-size: 28px;
 }
 
 .projet p {
-  position: absolute;
   left: 15px;
   bottom: 15px;
+  font-size: 22px;
+}
+
+.projet h2,
+.projet p {
+  position: absolute;
   z-index: 2;
+  color: #cae3ae;
+  font-family: finlandica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .projet {
@@ -18,5 +27,11 @@
 }
 
 .projet img {
+  width: 100%;
+}
+
+// illustration projects
+
+.illustration-section {
   width: 100%;
 }
