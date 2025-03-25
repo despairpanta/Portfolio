@@ -5,14 +5,15 @@
   font-size: 28px;
 }
 
-.projet p {
+.projet .date {
   left: 15px;
   bottom: 15px;
   font-size: 22px;
+  color: #cae3ae;
 }
 
 .projet h2,
-.projet p {
+.projet .date {
   position: absolute;
   z-index: 2;
   color: #cae3ae;
@@ -28,10 +29,37 @@
 
 .projet img {
   width: 100%;
+  filter: saturate(0);
+}
+
+// section projetcs------------------------->
+.projects-section {
+  background: black;
 }
 
 // illustration projects
 
-.illustration-section {
+// .illustration-section {
+//   width: 100%;
+// }
+.projects-illustration {
+  position: relative;
+}
+
+.projects-illustration img {
   width: 100%;
+}
+
+.projects-name-illustration {
+  font-family: finlandica, sans-serif;
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #cae3ae;
+  right: 18px;
+  top: 18px;
+  position: absolute;
+  z-index: 2;
 }
