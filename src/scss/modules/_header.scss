@@ -1,6 +1,31 @@
 header {
   background: #171719;
-  height: 948px;
+  // height: 948px;
+  padding-bottom: 9%;
   display: flex;
   flex-direction: row;
+}
+
+header img {
+}
+
+header .container-fluid {
+  position: relative;
+}
+
+.trust {
+  width: 90%;
+  height: auto;
+  position: relative;
+  top: 15%;
+  z-index: 6;
+}
+
+.holly {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  // left: 22%;
+  z-index: 1;
 }

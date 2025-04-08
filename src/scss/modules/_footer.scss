@@ -1,16 +1,44 @@
 footer {
   background: #171719;
   width: 100%;
+  position: relative;
+}
+
+footer img {
+  z-index: 6;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .text-animation {
   color: #ef403b;
   font-family: "P22 Arts and Crafts";
-  font-size: 497px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  // scrollin text
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-animation span {
+  display: inline-block;
+  // padding-left: 100%;
+  animation: text-animation 10s linear infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: translate (0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
 .contact {
