@@ -18,22 +18,37 @@
   width: 100%;
 }
 
-.presentation h1 {
+// .presentation h1 {
+//   position: absolute;
+//
+//   // text-align: right;
+//   font-family: "P22 Arts and Crafts";
+//   font-size: 71px;
+//   font-weight: 700;
+//   text-transform: uppercase;
+// }
+
+// .presentation p {
+//
+//   position: absolute;
+//   font-family: finlandica, sans-serif;
+//   font-size: 50px;
+//   font-weight: 400;
+// }
+
+.presentation-inner {
+  position: relative;
+}
+
+.presentation-title {
   position: absolute;
   right: 18px;
   top: 18px;
-  // text-align: right;
-  font-family: "P22 Arts and Crafts";
-  font-size: 71px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
-.presentation p {
-  padding-left: 15px;
-  bottom: 70px;
+.presentation-text {
   position: absolute;
-  font-family: finlandica, sans-serif;
-  font-size: 50px;
-  font-weight: 400;
+  left: 18px;
+  bottom: 18px;
+  right: 18px;
 }

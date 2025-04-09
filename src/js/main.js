@@ -17,6 +17,17 @@ document.querySelectorAll("a").forEach((link) => {
 // eye tracker
 const eyePupil = document.querySelector(".pupil");
 const innerEye = document.querySelector(".inner-eye");
+var minX = 22;
+var maxX = 38;
+var minY = 24;
+var maxY = 94;
+
+document.addEventListener("mousemove", (e) => {
+  var xPercent = e.clientX / window.innerWidth;
+  var yPercent = e.clientY / window.innerWidth;
+  eyePupil.setAttribute("cx", minX + xPercent * (maxX - minX));
+  eyePupil.setAttribute("cy", minY + yPercent * (maxY - minY));
+});
 
 // carousel
 import Swiper, { Navigation, Pagination } from "swiper";
