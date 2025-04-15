@@ -8,9 +8,15 @@ document.addEventListener("mousemove", (e) => {
 document.querySelectorAll("a").forEach((link) => {
   link.addEventListener("mouseenter", () => {
     cursor.style.mixBlendMode = "difference";
+    cursor.style.background = "#05a1a6";
+    cursor.style.width = "167px";
+    cursor.style.height = "167px";
   });
   link.addEventListener("mouseleave", () => {
-    cursor.style.mixBlendMode = "color-dodge";
+    cursor.style.mixBlendMode = "normal";
+    cursor.style.background = "#EF403B";
+    cursor.style.width = "40px";
+    cursor.style.height = "40px";
   });
 });
 

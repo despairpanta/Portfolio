@@ -1,12 +1,13 @@
 .cursor {
-  width: 167px;
-  height: 167px;
-  background: #05a1a6;
+  width: 40px;
+  height: 40px;
+  background: #ef403b;
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: mix-blend-mode ease-in-out 0.2s;
+  transition: background ease-in-out 0.2s, width ease-in-out 0.4s,
+    height ease-in-out 0.4s;
   mix-blend-mode: color-dodge;
   z-index: 1000;
 }

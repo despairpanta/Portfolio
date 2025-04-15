@@ -2,9 +2,13 @@ body.carousel {
   background: #171719;
 }
 
+.swiper-container {
+  position: relative;
+}
+
 .swiper-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .swiper-slide {
@@ -14,27 +18,32 @@ body.carousel {
   width: 100%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.button-next,
+.button-prev {
   color: #cae3ae;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #cae3ae;
-  font-family: "P22 Arts and Crafts";
-  font-size: 97px;
+  font-family: p22-arts-and-crafts, sans-serif;
+  font-size: 7.2vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  position: absolute;
 }
 
-.carousel-prev,
-.carousel-next  {
-  position: absolute;
-  top: 10px;
-  font-size: 30px;
+.button-prev,
+.button-next {
+  position: fixed;
   z-index: 10;
 }
 
 .button-prev {
-  left: 100px;
+  left: 15%;
+  top: 45%;
+}
+
+.button-next {
+  right: 6%;
+  top: 45%;
 }
